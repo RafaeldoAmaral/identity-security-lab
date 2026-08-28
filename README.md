@@ -1,42 +1,31 @@
-\# Identity Security Lab
+## Identity Security Lab
 
-
-
-Laboratório prático voltado ao desenvolvimento de competências em \*\*Identity and Access Management (IAM), Identity Governance and Administration (IGA) e Blue Team\*\*.
-
-
-
+Laboratório prático voltado ao desenvolvimento de competências em Identity and Access Management (IAM), Identity Governance and Administration (IGA) e Blue Team.
 O objetivo deste projeto é demonstrar, por meio de cenários práticos, como processos de identidade podem ser implementados, monitorados e investigados em ambientes corporativos.
 
+## Tecnologias utilizadas
 
+* Microsoft Active Directory
 
-\## Tecnologias
+* Windows Server
 
+* PowerShell
 
+* Windows Security Event Log
 
-\* Microsoft Active Directory
+* One Identity Manager
 
-\* Windows Server
+* Microsoft Entra ID
 
-\* PowerShell
+* Microsoft Sentinel
 
-\* Windows Security Event Log
+* KQL
 
-\* One Identity Manager
+* Sysmon
 
-\* Microsoft Entra ID
+* Microsoft Graph
 
-\* Microsoft Sentinel
-
-\* KQL
-
-\* Sysmon
-
-\* Microsoft Graph
-
-
-
-\## Estrutura do projeto
+## Estrutura do projeto
 
 
 
@@ -62,67 +51,58 @@ identity-security-lab/
 
 
 
-\## Labs
+## Labs
 
-
-
-\### Lab 01 — Active Directory: Identity Provisioning \& Security Monitoring
-
-
+### Lab 01 — Active Directory: Identity Provisioning \& Security Monitoring
 
 Implementação de um cenário de Joiner no Active Directory, incluindo:
 
+* Criação de identidade com PowerShell
+
+* Atributos IAM
+
+* Provisionamento de acesso
+
+* Birthright Access
+
+* Event ID 4720
+
+* Event ID 4728
+
+* Relação entre IAM e Blue Team
 
 
-\* Criação de identidade com PowerShell
-
-\* Atributos IAM
-
-\* Provisionamento de acesso
-
-\* Birthright Access
-
-\* Event ID 4720
-
-\* Event ID 4728
-
-\* Relação entre IAM e Blue Team
-
-
-
-\## Roadmap
-
-
+## Roadmap
 
 Próximos laboratórios:
 
 
 
-\* Access Review
+* Access Review
 
-\* Mover
+* Mover
 
-\* Leaver
+* Leaver
 
-\* Deprovisioning
+* Deprovisioning
 
-\* One Identity Manager
+* One Identity Manager
 
-\* Microsoft Entra ID
+* Microsoft Entra ID
 
-\* SAML / OIDC / SCIM
+* SAML / OIDC / SCIM
 
-\* Windows Security Logs
+* Windows Security Logs
 
-\* Sysmon
+* Sysmon
 
-\* Microsoft Sentinel
+* Microsoft Sentinel
 
-\* KQL
+* KQL
 
-\* Incident Response
+* Incident Response
 
-\* Identity Threat Detection
+* Identity Threat Detection
 
 
 
