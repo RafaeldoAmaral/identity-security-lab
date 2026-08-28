@@ -414,6 +414,21 @@ Quem possui acesso? - >  A qual recurso? - > Por qual motivo? - > Quem concedeu?
 ```
 Essas perguntas conectam IAM, Identity Governance e Blue Team.
 
+
+## Evidências do laboratório
+
+### Usuário criado no Active Directory
+
+![Usuário Ana Souza](screenshots/01-user-created.png)
+
+### Event ID 4720 — criação da conta
+
+![Event ID 4720](screenshots/02-event-4720.png)
+
+### Event ID 4728 — inclusão em grupo
+
+![Event ID 4728](screenshots/03-event-4728.png)
+
 ## Próximos passos
 
 O próximo laboratório expandirá esse cenário para o ciclo de vida da identidade, abordando:
